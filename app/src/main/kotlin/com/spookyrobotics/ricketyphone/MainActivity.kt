@@ -74,6 +74,9 @@ class MainActivity : FragmentActivity() {
     private fun executeUpdateAction(cell: RelativeGraphView, updateValue: Int) {
         if (updateValue == 1) {
             cell.addStaticOffsetDrawing(Triangle(cell,1f, 0.5f , false))
+            cell.addStaticOffsetDrawing(Triangle(cell,0.8f, 0.45f , false))
+            cell.addStaticOffsetDrawing(Triangle(cell,0.4f, 0.2f , false))
+
         } else {
             cell.removeOffsetInteractions()
         }

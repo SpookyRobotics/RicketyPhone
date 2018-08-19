@@ -9,7 +9,7 @@
 
   <com.spookyrobotics.graphpaper.RelativeGraphView
       android:id="@+id/graph_paper_view1"
-      android:background="#FF0000"
+      android:background="#11FF0000"
       android:layout_width="0dp"
       android:layout_height="0dp"
       app:layout_constraintStart_toStartOf="parent"
@@ -19,7 +19,7 @@
 
     <com.spookyrobotics.graphpaper.RelativeGraphView
         android:id="@+id/graph_paper_view2"
-        android:background="#FF00FF"
+        android:background="#11FF00FF"
         android:layout_width="0dp"
         android:layout_height="0dp"
         app:layout_constraintStart_toEndOf="@id/graph_paper_view1"
@@ -29,7 +29,7 @@
 
     <com.spookyrobotics.graphpaper.RelativeGraphView
         android:id="@+id/graph_paper_view3"
-        android:background="#FFFF00"
+        android:background="#11FFFF00"
         android:layout_width="0dp"
         android:layout_height="0dp"
         app:layout_constraintStart_toEndOf="@id/graph_paper_view2"
@@ -39,7 +39,7 @@
 
     <com.spookyrobotics.graphpaper.RelativeGraphView
         android:id="@+id/graph_paper_view4"
-        android:background="#00FFFF"
+        android:background="#1100FFFF"
         android:layout_width="0dp"
         android:layout_height="0dp"
         app:layout_constraintStart_toEndOf="@id/graph_paper_view3"
@@ -49,7 +49,7 @@
 
     <com.spookyrobotics.graphpaper.RelativeGraphView
         android:id="@+id/graph_paper_view5"
-        android:background="#FFFF00"
+        android:background="#11FFFF00"
         android:layout_width="0dp"
         android:layout_height="0dp"
         app:layout_constraintStart_toStartOf="@id/graph_paper_view1"
@@ -59,7 +59,7 @@
 
     <com.spookyrobotics.graphpaper.RelativeGraphView
         android:id="@+id/graph_paper_view6"
-        android:background="#00FFFF"
+        android:background="#1100FFFF"
         android:layout_width="0dp"
         android:layout_height="0dp"
         app:layout_constraintStart_toStartOf="@id/graph_paper_view2"
@@ -69,7 +69,7 @@
 
     <com.spookyrobotics.graphpaper.RelativeGraphView
         android:id="@+id/graph_paper_view7"
-        android:background="#FF0000"
+        android:background="#11FF0000"
         android:layout_width="0dp"
         android:layout_height="0dp"
         app:layout_constraintStart_toStartOf="@id/graph_paper_view3"
@@ -79,7 +79,7 @@
 
     <com.spookyrobotics.graphpaper.RelativeGraphView
         android:id="@+id/graph_paper_view8"
-        android:background="#FF00FF"
+        android:background="#11FF00FF"
         android:layout_width="0dp"
         android:layout_height="0dp"
         app:layout_constraintStart_toStartOf="@id/graph_paper_view4"
